@@ -136,7 +136,7 @@ function App() {
                         maxWidth: '200px',
                         fontSize: '18px',
                         marginTop: '10px',
-                        color: 'black'
+                        color: 'black',
                       }}>
                       {album.name}
                     </Card.Title>
@@ -144,7 +144,8 @@ function App() {
                     <Card.Text
                       style={{ color: 'black' }}
                     >
-                      Release Date: <br /> {album.release_date}
+                      Artist(s) Name: {album.artists.map(a => a.name).join(", ")} <br />
+                      Release Date: {album.release_date}
                     </Card.Text>
 
                     <Button

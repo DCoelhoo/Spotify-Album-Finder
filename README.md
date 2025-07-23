@@ -4,4 +4,4 @@ This app allows users to search for albums on Spotify. Simply enter the album na
 
 ---
 
-![Custom thumbnail](./public/thumb.jpeg)
+![Custom thumbnail](./public/thumb.png)
